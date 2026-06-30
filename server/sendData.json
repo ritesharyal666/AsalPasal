@@ -1,0 +1,326 @@
+{
+  "brands": [
+    {
+      "id": "brand_001",
+      "label": "Nike",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "isActive": true
+    },
+    {
+      "id": "brand_002",
+      "label": "Adidas",
+      "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=400",
+      "isActive": true
+    },
+    {
+      "id": "brand_003",
+      "label": "Apple",
+      "image": "https://images.unsplash.com/photo-1611472173362-3f53dbd65d80?w=400",
+      "isActive": true
+    },
+    {
+      "id": "brand_004",
+      "label": "Samsung",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
+      "isActive": true
+    },
+    {
+      "id": "brand_005",
+      "label": "Sony",
+      "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=400",
+      "isActive": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_001",
+      "label": "Footwear",
+      "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=400",
+      "isActive": true
+    },
+    {
+      "id": "cat_002",
+      "label": "Electronics",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400",
+      "isActive": true
+    },
+    {
+      "id": "cat_003",
+      "label": "Clothing",
+      "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400",
+      "isActive": true
+    },
+    {
+      "id": "cat_004",
+      "label": "Accessories",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800"
+      ],
+      "title": "Nike Air Max 270",
+      "description": "The Nike Air Max 270 delivers visible cushioning under every step. Inspired by two icons of big Air, the 270 features Nike's biggest heel Air unit yet for a super-soft ride that feels as impossible as it looks.",
+      "category": "cat_001",
+      "brand": "brand_001",
+      "price": 150,
+      "salePrice": 120,
+      "costPrice": 80,
+      "totalStock": 50
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+        "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=800"
+      ],
+      "title": "Nike Revolution 6",
+      "description": "Comfortable, supportive and durable. The Nike Revolution 6 delivers the comfort and reliability you need for any run. Great for beginners and experienced runners alike.",
+      "category": "cat_001",
+      "brand": "brand_001",
+      "price": 65,
+      "salePrice": 55,
+      "costPrice": 35,
+      "totalStock": 100
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800"
+      ],
+      "title": "Adidas Ultraboost 22",
+      "description": "Energy-returning shoes made in part with recycled materials. Feel the boost. These running shoes have a BOOST midsole for incredible energy return with every stride.",
+      "category": "cat_001",
+      "brand": "brand_002",
+      "price": 180,
+      "salePrice": 160,
+      "costPrice": 110,
+      "totalStock": 45
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800"
+      ],
+      "title": "Adidas Stan Smith",
+      "description": "Iconic tennis-inspired shoes with a timeless silhouette. Originally designed for tennis courts, the classic Stan Smith has become a streetwear icon.",
+      "category": "cat_001",
+      "brand": "brand_002",
+      "price": 90,
+      "salePrice": 75,
+      "costPrice": 50,
+      "totalStock": 80
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1611472173362-3f53dbd65d80?w=800",
+        "https://images.unsplash.com/photo-1592286927505-b7cb8a85f678?w=800"
+      ],
+      "title": "iPhone 15 Pro",
+      "description": "The iPhone 15 Pro features a titanium design, A17 Pro chip, advanced camera system with 48MP Main camera, and Action button. Available in multiple colors.",
+      "category": "cat_002",
+      "brand": "brand_003",
+      "price": 999,
+      "salePrice": 949,
+      "costPrice": 650,
+      "totalStock": 30
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800"
+      ],
+      "title": "iPhone 14",
+      "description": "All-day battery life. Vital safety features. And even more Pro camera capabilities. Meet iPhone 14, now with emergency SOS via satellite and Crash Detection.",
+      "category": "cat_002",
+      "brand": "brand_003",
+      "price": 799,
+      "salePrice": 699,
+      "costPrice": 500,
+      "totalStock": 60
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800"
+      ],
+      "title": "Samsung Galaxy S24 Ultra",
+      "description": "Epic just got more epic. Meet Galaxy S24 Ultra with Galaxy AI, 200MP camera, built-in S Pen, and titanium design. The ultimate smartphone experience.",
+      "category": "cat_002",
+      "brand": "brand_004",
+      "price": 1199,
+      "salePrice": 1099,
+      "costPrice": 750,
+      "totalStock": 25
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1565849904461-04a3042b14f2?w=800"
+      ],
+      "title": "Samsung Galaxy A54",
+      "description": "Awesome in every way. Galaxy A54 5G features a stunning 120Hz display, 50MP camera with OIS, and long-lasting battery. Premium features at an accessible price.",
+      "category": "cat_002",
+      "brand": "brand_004",
+      "price": 449,
+      "salePrice": 399,
+      "costPrice": 280,
+      "totalStock": 75
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800"
+      ],
+      "title": "Sony WH-1000XM5",
+      "description": "Industry-leading noise cancellation with Auto NC Optimizer, crystal clear hands-free calling, and Multipoint connection. Up to 30 hours battery life.",
+      "category": "cat_002",
+      "brand": "brand_005",
+      "price": 399,
+      "salePrice": 349,
+      "costPrice": 220,
+      "totalStock": 40
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+      ],
+      "title": "Sony WF-1000XM4",
+      "description": "True wireless earbuds with industry-leading noise cancellation, exceptional sound quality, and long battery life. Perfect for music lovers on the go.",
+      "category": "cat_002",
+      "brand": "brand_005",
+      "price": 279,
+      "salePrice": 229,
+      "costPrice": 150,
+      "totalStock": 55
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800"
+      ],
+      "title": "Nike Dri-FIT Training Shirt",
+      "description": "Stay dry and comfortable during intense workouts. Nike Dri-FIT technology wicks sweat away from your skin for quick evaporation.",
+      "category": "cat_003",
+      "brand": "brand_001",
+      "price": 35,
+      "salePrice": 28,
+      "costPrice": 18,
+      "totalStock": 150
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800"
+      ],
+      "title": "Nike Tech Fleece Hoodie",
+      "description": "Engineered for warmth without the weight. Nike Tech Fleece offers premium warmth with a streamlined fit that won't weigh you down.",
+      "category": "cat_003",
+      "brand": "brand_001",
+      "price": 110,
+      "salePrice": 95,
+      "costPrice": 60,
+      "totalStock": 70
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800"
+      ],
+      "title": "Adidas Essentials 3-Stripes Hoodie",
+      "description": "Classic comfort with iconic style. This hoodie features the legendary 3-Stripes on the sleeves and a kangaroo pocket for small item storage.",
+      "category": "cat_003",
+      "brand": "brand_002",
+      "price": 55,
+      "salePrice": 45,
+      "costPrice": 30,
+      "totalStock": 120
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1598032895397-b8d3c0925ee0?w=800"
+      ],
+      "title": "Adidas Tiro Track Pants",
+      "description": "Soccer-inspired pants made for everyday life. Featuring tapered legs with ankle zips and signature 3-Stripes down the sides.",
+      "category": "cat_003",
+      "brand": "brand_002",
+      "price": 50,
+      "salePrice": 42,
+      "costPrice": 28,
+      "totalStock": 90
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800"
+      ],
+      "title": "Nike Heritage Backpack",
+      "description": "Classic design meets modern functionality. Spacious main compartment with multiple pockets for organization. Perfect for school or everyday use.",
+      "category": "cat_004",
+      "brand": "brand_001",
+      "price": 40,
+      "salePrice": 35,
+      "costPrice": 22,
+      "totalStock": 100
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800"
+      ],
+      "title": "Adidas Classic Badge of Sport Backpack",
+      "description": "Carry your essentials in style with this sporty backpack. Features padded shoulder straps and multiple compartments for organization.",
+      "category": "cat_004",
+      "brand": "brand_002",
+      "price": 35,
+      "salePrice": 30,
+      "costPrice": 20,
+      "totalStock": 85
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+      ],
+      "title": "Apple Watch Series 9",
+      "description": "Our most powerful smartwatch yet. Features a brighter display, faster chip, and precision finding for iPhone. Health and fitness tracking at your fingertips.",
+      "category": "cat_004",
+      "brand": "brand_003",
+      "price": 399,
+      "salePrice": 379,
+      "costPrice": 250,
+      "totalStock": 45
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800"
+      ],
+      "title": "Samsung Galaxy Watch 6",
+      "description": "Advanced health monitoring with personalized sleep coaching. Track your fitness, monitor heart health, and stay connected all day long.",
+      "category": "cat_004",
+      "brand": "brand_004",
+      "price": 299,
+      "salePrice": 269,
+      "costPrice": 180,
+      "totalStock": 50
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800"
+      ],
+      "title": "Nike Sports Sunglasses",
+      "description": "Performance sunglasses with 100% UV protection. Lightweight frame with secure fit designed for active lifestyles and outdoor sports.",
+      "category": "cat_004",
+      "brand": "brand_001",
+      "price": 85,
+      "salePrice": 70,
+      "costPrice": 45,
+      "totalStock": 60
+    },
+    {
+      "images": [
+        "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=800"
+      ],
+      "title": "Sony PlayStation 5 Controller",
+      "description": "Experience haptic feedback and adaptive triggers. Discover a deeper, highly immersive gaming experience with the DualSense wireless controller.",
+      "category": "cat_004",
+      "brand": "brand_005",
+      "price": 74,
+      "salePrice": 69,
+      "costPrice": 45,
+      "totalStock": 80
+    }
+  ]
+}
