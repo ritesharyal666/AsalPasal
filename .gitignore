@@ -16,6 +16,14 @@ build/
 **/build/
 dist-ssr/
 
+# Python (ml-service)
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pkl
+
 # Logs
 *.log
 npm-debug.log*
